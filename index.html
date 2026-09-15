@@ -1,58 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>My Website</title>
-    <meta name="description" content="My personal website">
-
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bhuvanesh A — SolarWinds Administrator, Network Engineer and Middleware Engineer.">
+  <title>Bhuvanesh A | SolarWinds & Network Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
+  <header class="nav">
+    <a class="brand" href="#home">BA<span>.</span></a>
+    <button class="menu" aria-label="Open menu">☰</button>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="theme-toggle" aria-label="Toggle theme">☾</button>
+  </header>
 
-    <header>
-        <nav class="navbar">
-            <div class="logo">My Website</div>
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">SOLARWINDS • NETWORK • OBSERVABILITY • DATABASE</p>
+        <h1>Bhuvanesh <span>A</span></h1>
+        <p class="role">SolarWinds Administrator &amp; Network Engineer</p>
+        <p class="intro">
+          4+ years of experience in enterprise monitoring, database administration,
+          networking, cloud infrastructure, middleware and observability.
+        </p>
+        <div class="actions">
+          <a class="btn primary" href="#experience">View Experience</a>
+          <a class="btn secondary" href="mailto:bhuvaneshbecse21@gmail.com">Contact Me</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>5,000+</strong><small>Nodes monitored</small></div>
+          <div><strong>700+</strong><small>SQL instances</small></div>
+          <div><strong>95%</strong><small>Platform uptime</small></div>
+        </div>
+      </div>
+      <div class="terminal-card">
+        <div class="terminal-top"><i></i><i></i><i></i><span>~/bhuvanesh</span></div>
+        <pre><code><span class="muted">$</span> whoami
+<span class="accent">bhuvanesh</span>
 
-            <div class="nav-links">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#contact">Contact</a>
-            </div>
-        </nav>
-    </header>
+<span class="muted">$</span> expertise
+SolarWinds Orion
+SQL Server HA/DR
+Network Engineering
+Observability
+Middleware
+Cloud Infrastructure
 
-    <main>
+<span class="muted">$</span> status
+<span class="ok">● Available for opportunities</span></code></pre>
+      </div>
+    </section>
 
-        <section id="home" class="hero">
-            <h1>Welcome to My Website</h1>
-            <p>This website is hosted for free using GitHub Pages.</p>
+    <section id="about" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">01 / ABOUT</p>
+        <h2>Engineering reliable infrastructure.</h2>
+      </div>
+      <div class="about-grid">
+        <p>
+          SolarWinds Administrator and Network Engineer with hands-on experience
+          supporting enterprise infrastructure and applications. Experienced with
+          SolarWinds Orion Suite, Microsoft SQL Server (2008–2022 and Azure SQL),
+          CATO SASE, FortiGate, Prometheus, Grafana, Dynatrace, Zabbix, ELK Stack,
+          ThousandEyes and Site24x7.
+        </p>
+        <div class="about-list">
+          <div><span>Location</span><strong>Bengaluru, India</strong></div>
+          <div><span>Email</span><strong>bhuvaneshbecse21@gmail.com</strong></div>
+          <div><span>Focus</span><strong>Monitoring • Networks • DBA • Middleware</strong></div>
+        </div>
+      </div>
+    </section>
 
-            <a href="#about" class="button">Learn More</a>
-        </section>
+    <section id="experience" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">02 / EXPERIENCE</p>
+        <h2>Hands-on enterprise operations.</h2>
+      </div>
 
-        <section id="about" class="section">
-            <h2>About Me</h2>
-            <p>
-                Hello! This is my website. I can add my information,
-                projects, services, photos and anything else here.
-            </p>
-        </section>
+      <article class="job">
+        <div class="job-meta">
+          <span>Jan 2022 — Present</span>
+          <span>Bengaluru</span>
+        </div>
+        <div>
+          <h3>SolarWinds Administrator | SQL Server DBA</h3>
+          <p class="company">Wissen infotech</p>
+          <ul>
+            <li>Administer and optimize SolarWinds Orion Suite (NPM, SAM, NCM, NTA, WPM, SRM, VMAN) across 5,000+ network and infrastructure nodes.</li>
+            <li>Deploy, upgrade and maintain SolarWinds High Availability environments, reducing platform downtime by 90%.</li>
+            <li>Build monitoring templates using SNMP, WMI, ICMP, API polling, custom pollers, NetFlow and SNMP traps.</li>
+            <li>Monitor Tomcat, Nginx, Spring Boot, JVM metrics, Linux, Windows Event Logs and enterprise applications.</li>
+            <li>Integrate SolarWinds with Grafana and ServiceNow REST APIs for dashboards and automated incident creation.</li>
+            <li>Support 700+ Microsoft SQL Server and Azure SQL instances across Development, QA and Production.</li>
+            <li>Perform SQL installation, upgrades, maintenance, backup/recovery, query tuning, index optimization, deadlock analysis and capacity planning.</li>
+            <li>Implement HA/DR with Always On, Database Mirroring, Clustering and Replication.</li>
+          </ul>
+        </div>
+      </article>
 
-        <section id="contact" class="section contact">
-            <h2>Contact</h2>
-            <p>Email: hello@example.com</p>
-        </section>
+      <article class="job">
+        <div class="job-meta">
+          <span>Jan 2022 — Present</span>
+          <span>Bengaluru</span>
+        </div>
+        <div>
+          <h3>Network Service Engineer</h3>
+          <p class="company">Wissen infotech</p>
+          <ul>
+            <li>Manage FortiGate firewalls using FortiManager, including policies, NAT rules, IPS, security profiles and firmware upgrades.</li>
+            <li>Manage CATO Networks SASE infrastructure, VLANs, VPNs, routing optimization and ISP coordination.</li>
+            <li>Administer Zscaler Internet Access (ZIA), URL filtering, PAC files and user access policies.</li>
+            <li>Configure Cisco Meraki switches, MX security appliances, wireless APs, cameras, VLANs, switch ports and ISP uplinks.</li>
+            <li>Monitor enterprise circuits and network devices, troubleshoot end-to-end issues and perform RCA.</li>
+            <li>Work with Citrix NetScaler ADC including VIPs, Service Groups, backend servers and Content Switching.</li>
+            <li>Execute network and security changes following ITIL Change Management processes.</li>
+          </ul>
+        </div>
+      </article>
 
-    </main>
+      <article class="job">
+        <div class="job-meta">
+          <span>Aug 2024 — Present</span>
+          <span>Bengaluru</span>
+        </div>
+        <div>
+          <h3>Middleware Engineer</h3>
+          <p class="company">Wissen infotech</p>
+          <ul>
+            <li>Monitor and support Apache Tomcat, Oracle WebLogic, Nginx and Kafka environments.</li>
+            <li>Deploy and validate EAR, WAR and JAR packages across Development, QA and Production.</li>
+            <li>Troubleshoot middleware, application, connectivity and integration issues.</li>
+            <li>Monitor JVM Heap, Garbage Collection, CPU, Memory and Thread utilization.</li>
+            <li>Maintain SSL certificates, keystores and trust stores; perform Linux administration and log analysis.</li>
+            <li>Support CI/CD deployments and monitor applications using AWS CloudWatch.</li>
+            <li>Participate in Major Incident Management, RCA, Incident, Problem, Change and Release Management.</li>
+          </ul>
+        </div>
+      </article>
+    </section>
 
-    <footer>
-        <p>© 2026 My Website. All rights reserved.</p>
-    </footer>
+    <section id="skills" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">03 / SKILLS</p>
+        <h2>Tools I work with.</h2>
+      </div>
+      <div class="skill-groups">
+        <div class="skill-group">
+          <h3>Monitoring &amp; Observability</h3>
+          <div class="tags"><span>SolarWinds Orion</span><span>Prometheus</span><span>Grafana</span><span>Dynatrace</span><span>Zabbix</span><span>ELK</span><span>ThousandEyes</span><span>Site24x7</span><span>Viavi</span></div>
+        </div>
+        <div class="skill-group">
+          <h3>Network &amp; Security</h3>
+          <div class="tags"><span>Cisco Meraki</span><span>CATO Networks</span><span>FortiGate</span><span>FortiManager</span><span>Zscaler ZIA</span><span>Citrix NetScaler</span><span>LAN/WAN</span><span>VPN</span><span>VLAN</span></div>
+        </div>
+        <div class="skill-group">
+          <h3>Database &amp; Infrastructure</h3>
+          <div class="tags"><span>SQL Server</span><span>Azure SQL</span><span>Always On</span><span>HA/DR</span><span>VMware vCenter</span><span>Apache Tomcat</span><span>WebLogic</span><span>Nginx</span><span>Kafka</span></div>
+        </div>
+        <div class="skill-group">
+          <h3>Cloud &amp; Automation</h3>
+          <div class="tags"><span>AWS</span><span>Docker</span><span>Kubernetes</span><span>Terraform</span><span>PowerShell</span><span>Bash</span><span>Python</span><span>ServiceNow</span><span>CI/CD</span></div>
+        </div>
+      </div>
+    </section>
 
-    <script src="script.js"></script>
+    <section id="certifications" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">04 / CREDENTIALS</p>
+        <h2>Education &amp; certifications.</h2>
+      </div>
+      <div class="credentials">
+        <div class="credential"><span class="year">2026</span><h3>Cisco Meraki Network Engineer: Fundamental (CMNE-F)</h3><p>Cisco Meraki</p></div>
+        <div class="credential"><span class="year">2026</span><h3>LFS101: Introduction to Linux</h3><p>The Linux Foundation</p></div>
+        <div class="credential"><span class="year">2026</span><h3>CCA</h3><p>Cato Networks</p></div>
+        <div class="credential"><span class="year">2024</span><h3>Microsoft Certified: Azure Fundamentals</h3><p>Microsoft</p></div>
+        <div class="credential"><span class="year">2021</span><h3>Bachelor of Engineering — Computer Science and Engineering</h3><p>Karpaga Vinayaga College of Engineering and Technology</p></div>
+      </div>
+    </section>
 
+    <section id="contact" class="contact">
+      <p class="eyebrow">05 / CONTACT</p>
+      <h2>Let's connect.</h2>
+      <p>Interested in infrastructure, monitoring, networking or observability? Get in touch.</p>
+      <div class="contact-links">
+        <a href="mailto:bhuvaneshbecse21@gmail.com">bhuvaneshbecse21@gmail.com</a>
+        <a href="tel:+919629289396">+91 9629289396</a>
+        <span>Bengaluru, India</span>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Bhuvanesh A</span>
+    <span>Built for GitHub Pages</span>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
