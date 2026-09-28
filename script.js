@@ -30,7 +30,7 @@
     <div class="hero-content">
       <div class="eyebrow">CI/CD • INFRASTRUCTURE AS CODE • CLOUD-NATIVE OBSERVABILITY</div>
       <h1>Bhuvanesh A</h1>
-      <div class="role">Senior DevOps Engineer</div>
+      <div class="role">DevOps Engineer</div>
       <p class="intro">
         4+ years of experience specializing in automated deployment lifecycles, container orchestration, scalable infrastructure scaling, and advanced site reliability engineering (SRE).
       </p>
